@@ -1,0 +1,15 @@
+PROGRAM PrintHelloName(INPUT, OUTPUT);
+USES
+  Dos;
+VAR
+  Name: STRING;
+BEGIN
+  WRITELN;
+  Name := GetEnv('QUERY_STRING');
+  DELETE(Name, 1, 5);
+  IF Name <> ''
+  THEN
+    WRITELN('Hello ', Name)
+  ELSE
+    WRITELN('Hello Anonymous!')
+END.
