@@ -1,0 +1,603 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+
+.wrapper
+{
+	overflow: hidden;
+	min-height: 100%;
+	
+}
+
+.header
+{
+	position: absolute;
+	width: 100%;
+}
+
+.header_menu
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1169.5px;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+.menu_list
+{
+	display: flex;
+}
+
+.menu_list a
+{
+	text-decoration: none;
+	width: 100%;
+}
+
+.menu_link a
+{
+	list-style: none;
+	font-size: 13px;
+	letter-spacing: 0.7px;
+	color: #f4f5f9;
+	font-family: "Open Sans";
+	font-weight	: 100;
+	text-transform: uppercase;
+	margin-left: 62px;
+}
+
+.menu_link li:first-child
+{
+	margin-left: 0px;
+}
+
+.menu_link a:hover
+{
+	color: #e74c3c;
+	padding-bottom: 22px;
+	border-bottom: 1px solid #e74c3c;
+}
+
+.bg_screen
+{
+	width: 100%;
+}
+
+.main_text
+{		
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 226px;
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.main_text span
+{
+	color: #f4f5f9;
+	font-family: "Source Sans Pro";
+	font-size: 24px;
+	font-weight: 400;
+	letter-spacing: 1.2px;
+}
+
+.main_text h1
+{
+	font-size: 72px;
+	letter-spacing: 7px;
+	color: #f4f5f9;
+	font-family: "Open Sans";
+	font-weight: 700;
+	margin: 0 auto;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.main_text p
+{
+	color: #cbc6c0;
+	font-family: "Open Sans";
+	font-size: 15px;
+	font-weight: 200;
+	line-height: 24px;
+	width: 33%;
+	margin: 0 auto;
+	margin-top: 32px;
+}
+
+.anchor_container
+{
+	text-align: center;
+	margin-top: -46px;
+}
+
+.circle
+{
+	border-radius: 50%;
+	background-color: #e74c3c;
+	height: 7px;
+	width: 7px;
+	margin: 0 auto;
+}
+
+.navbutton
+{
+	width: 480px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 66px;
+}
+
+.btn
+{
+	display: inline-block;
+
+}
+
+.btn_btn
+{
+	width: 225px;
+	height: 52px;
+	border: 1px solid #ffffff;
+	background-color: transparent;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 39.85px;
+	text-transform: uppercase;
+	color: #ffffff;
+	
+}
+
+.btn_btn:hover
+{
+	box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.25);
+	background-color: #e74c3c;
+	border: none;
+}
+
+.freetrial
+{
+	position: absolute;
+	width: 100%;
+	z-index: 50;
+}
+
+.down_text
+{		
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 145px;
+}
+
+.down_text h5
+{
+	font-family: "Open Sans";
+	font-size: 36px;
+	line-height: 30px;
+	color: #ffffff;
+	margin-bottom: 12px;
+	font-weight: 700;
+}
+
+.down_btn
+{
+	display: inline-block;
+	margin-top: 62px;
+
+}
+
+.down_text p
+{
+	color: #cbc6c0;
+	font-family: "Open Sans";;
+	font-weight: 400;
+	line-height: 36px;
+	margin: 0 auto;
+}
+
+.down_screen
+{
+	display: flex;
+}
+
+.services_items
+{
+	display: flex;
+	align-content: center;
+	justify-content: space-between;
+	max-width: 1164px;
+	margin: 0 auto;
+	margin-bottom: 107px;
+	margin-top: 90px;
+}
+
+.item
+{
+	width: 249px;
+	text-align: center;
+	
+}
+
+.box
+{
+	height: 72px;
+	width: 72px;
+	display: flex;
+  	align-items: center;
+  	justify-content: center
+	background-color: #FFF;
+	background-color: transparent;
+	border: 1px solid #999999;
+	margin: 0 auto;
+	margin-bottom: 26px;
+	-webkit-transition: -webkit-transform .5s ease-in-out;
+          transition:         transform .3s ease-in-out;
+}
+
+.box img
+{
+	margin: 0 auto;
+}
+
+.box:hover
+{
+	-webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+	border: 1px solid #e74c3c;
+	
+}
+
+.item h2
+{
+	color: #6a6a6a;
+	font-family: "Open Sans - Semibold";
+	letter-spacing: 1.35px;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-bottom: 14px; 
+}
+
+.item hr
+{
+	width: 41px;
+	border: none; /* Убираем границу для браузера Firefox */
+    color: #6a6a6a; /* Цвет линии для остальных браузеров */
+    background-color: #6a6a6a; /* Цвет линии для браузера Firefox и Opera */
+    height: 2px;
+    margin: 0 auto;
+    margin-bottom: 12px;
+}
+
+.item p
+{
+	color: #999999;
+	font-family: "Source Sans Pro";
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 20px;
+	letter-spacing: 0.9px;
+
+}
+
+.arrow
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin: 0 auto;
+	margin-top: 25px;
+	width: 195px;
+	padding-bottom: 6px;
+}
+
+.arrow hr
+{
+	width: 80px;
+	border: none; /* Убираем границу для браузера Firefox */
+    color: #6a6a6a; /* Цвет линии для остальных браузеров */
+    background-color: #6a6a6a; /* Цвет линии для браузера Firefox и Opera */
+    height: 2px;
+    margin: 0 auto;
+}
+
+.feedback
+{
+	width: 100%;
+	height: 1035px;
+	background-color: #f4f5f9;
+}
+
+.fb_header
+{
+	height: 103px;
+	margin: 0 auto;
+	padding-top: 149px;
+	text-align: center;
+	margin-bottom: 63px;
+	
+	
+}
+
+.fb_header h3
+{
+	text-shadow: 0 1px 0 #ffffff;
+	color: #6a6a6a;
+	font-family: "Source Sans Pro";
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 20px;
+	text-transform: uppercase;
+}
+
+.fb_header p
+{
+	color: #999999;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+	margin-top: 28px;
+
+}
+
+.fb_content
+{
+	display: flex;
+	margin: 0 auto;
+	height: 566px;
+	width: 1171px;
+	justify-content: space-between;
+}
+
+.fb_info
+{
+	width: 478px;
+	height: 566px;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+	background-color: #ffffff;
+	align-items: center;
+  	justify-content: center;
+  	display: flex;
+}
+
+.fb_form
+{
+	width: 665px;
+	height: 566px;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+	background-color: #ffffff;
+}
+
+.info_box
+{
+	margin: 0 auto;
+	height: 370px;
+	margin-left: 90px;
+}
+
+.info_item
+{
+	margin: 0 auto;
+	margin-bottom: 70px;
+}
+
+.info_item h4
+{
+	color: #e74e3e;
+	font-family: "Source Sans Pro - Semibold";
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 24px;
+	text-transform: uppercase;
+	margin-bottom: 28px;
+}
+
+.info_item p
+{
+	color: #999999;
+	font-family: "Open Sans";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+form
+{
+	height: 369px;
+	width: 464px;
+	margin: 0 auto;
+}
+
+.fb_form
+{
+	align-items: center;
+  	justify-content: center;
+  	display: flex;
+}
+
+label
+{
+	color: #999999;
+	font-family: "Open Sans - Semibold";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.input-fields
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.msg, .input, .msg textarea
+{
+	margin: 15px 0;
+	background: transparent;
+	border: 0;
+	border-bottom: 1px solid #ececec;
+	width: 100%;
+	padding: 0 0 8px 0;
+	
+}
+
+.msg textarea
+{
+	height: 30px;
+}
+
+::-webkit-input-placeholder
+{
+	color: #999999;
+	font-family: "Open Sans - Semibold";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.form_btn
+{
+	width: 157px;
+	height: 44px;
+	box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.25);
+	background-color: #e74e3e;
+	color: #ffffff;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 40px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+
+.services_bg
+{
+	width: 100%;
+}
+
+.direction_item_header
+{
+	height: 36px;
+    margin-left: 263px;
+    margin-bottom: 66px;
+    display: flex;
+    align-items: center;
+
+}
+
+.rect
+{
+	/* Style for "Rectangle" */
+	width: 6px;
+	height: 100%;
+	background-color: #e74c3c;
+	margin-left: 26px;
+}
+
+.direction_item_header h2
+{
+	color: #f4f5f9;
+	font-family: "Source Sans Pro";
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 3.6px;
+}
+
+
+.direction_box_item
+{
+	display: flex;
+	margin-bottom: 55px;
+}
+
+.direction_box
+{
+	margin-left: 12px;
+}
+
+
+.direction_content
+{
+	height: 471px;
+	width: 678px;
+	margin-top: 148px;
+	text-align: right;
+	position: absolute;
+	margin-left: 390px;
+}
+
+.direction_box_item_text h3
+{
+	/* Style for "WEB DESIGN" */
+	color: #e74c3c;
+	font-family: "Open Sans - Semibold";
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 29px;
+	text-transform: uppercase;
+	margin-bottom: 3px;
+}
+
+.direction_box_item_text p
+{
+	color: #999999;
+	font-family: "Source Sans Pro";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 29px;
+}
+
+.direction_logo
+{
+	height: 73px;
+	width: 73px;
+	margin-top: 9px;
+	margin-left: 45px;
+}
+
+.footer
+{
+}
+
+.footer_content
+{
+	display: flex;
+	justify-content: space-between;
+	width: 1170px;
+	margin: 0 auto;
+	padding-top: 35px;
+}
+
+.footer_content_copyright p
+{
+	color: #999999;
+	font-family: "Open Sans - Semibold";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.footer_img
+{
+	margin-right: 19px;
+}
+
+footer
+{
+	width: 100%;
+	height: 90px;
+	background-color: #202020;
+}
