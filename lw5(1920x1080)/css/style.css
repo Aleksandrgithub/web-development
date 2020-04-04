@@ -16,7 +16,7 @@
 .header
 {
 	width: 100%;
-    background: url("C:/Users/Toshiba/Documents/frontend/github/web-development/lw5(1920x1080)/img/bg_main.png") no-repeat;
+    background: url("../img/bg_main.png") no-repeat;
 	background-size: cover;
     -webkit-background-size: 100%;
     height: 991px;
@@ -164,7 +164,7 @@
 .freetrial
 {
 	width: 100%;
-    background: url("C:/Users/Toshiba/Documents/frontend/github/web-development/lw5(1920x1080)/img/bg_down.png") no-repeat;
+    background: url("../img/bg_down.png") no-repeat;
 	background-size: cover;
     -webkit-background-size: 100%;
     height: 480px;
@@ -463,7 +463,7 @@ label
 .direction
 {
 	width: 100%;
-    background: url("C:/Users/Toshiba/Documents/frontend/github/web-development/lw5(1920x1080)/img/services_bg.png") no-repeat;
+    background: url("../img/services_bg.png") no-repeat;
 	background-size: cover;
     -webkit-background-size: 100%;
     height: 768px;
@@ -560,7 +560,7 @@ footer
 	bottom: 64px;
 	width: 57px;
 	height: 57px;
-	background: url("C:/Users/Toshiba/Documents/frontend/github/web-development/lw5(1920x1080)/img/back-to-top.png") no-repeat;
+	background: url("../img/back-to-top.png") no-repeat;
 }
 
 @media screen and (max-width: 1919px)
