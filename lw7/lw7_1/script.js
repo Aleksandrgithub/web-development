@@ -8,6 +8,9 @@ function CheckArgument(value) {
       break;
     }
   }
+  if ((value == 1) || (value == 0)) {
+    isPrime = false;
+  }
 }
 
 function CheckIsPrime(value) {
