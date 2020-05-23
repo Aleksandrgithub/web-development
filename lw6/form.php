@@ -1,13 +1,9 @@
 <?php
-  function getPostParameter(string $text) : ?string
-    {
-      return isset($_POST[$text]) ? (string)$_POST[$text] : null;
-    }
 
-$name = getPOSTParameter('name');
-$email = getPOSTParameter('email');
-$subject = getPOSTParameter('subject');
-$messenge = getPOSTParameter('messege');
+$name = $_POST['name'] ?? null;
+$email = $_POST['email'] ?? null;
+$subject = $_POST['subject'] ?? null;
+$messenge = $_POST['messenge'] ?? null;
 $filename = 'data/'.$email.".txt";
 
 if (file_exists($filename)) {

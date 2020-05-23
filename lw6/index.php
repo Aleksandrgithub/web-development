@@ -150,7 +150,7 @@
                 <input type="text" class="input" name="subject" placeholder="Subject" />
               </div>
               <div class="msg">
-                <textarea name="messege" placeholder="Messege"></textarea>
+                <textarea name="messenge" placeholder="Messege"></textarea>
               </div>
               <input type="submit" class="form_btn" value="send message">
             </form>
