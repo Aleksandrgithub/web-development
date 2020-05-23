@@ -137,7 +137,7 @@
                 <p>+ 880 168 109 1425+<br>0216809142</p>
               </div>
               <div class="info_item">
-                <h4>EMAIL US</h4>
+                <h4>EMAIL US</h4>f
                 <p>contactus@email.com</p>
               </div>
             </div>

@@ -40,6 +40,8 @@ header
 .menu_list
 {
 	display: flex;
+	padding-bottom: 1px;
+	height: 21px;
 }
 
 .menu_list a
@@ -54,7 +56,7 @@ header
 	letter-spacing: 0.7px;
 	color: #f4f5f9;
 	text-transform: uppercase;
-	margin-left: 62px;
+	margin-left: 58px;
 	font: 100 13px "Open Sans";
 }
 
@@ -98,7 +100,6 @@ header
 	letter-spacing: 7px;
 	color: #f4f5f9;
 	margin: 20px auto 0;
-	text-align: center;
 	font: 700 72px "Open Sans";
 }
 
@@ -106,14 +107,21 @@ header
 {
 	color: #cbc6c0;
 	width: 53%;
-	margin: 32px auto 0;
+	margin: 31px auto 0;
 	font: 200 15px/24px "Open Sans";
 }
 
 .anchor_container
 {
 	text-align: center;
-	margin-top: -46px;
+	margin-top: -42px;
+	z-index: 50;
+}
+
+.anch_img
+{
+	height: 75px;
+	width: 75px;
 }
 
 .circle
@@ -174,14 +182,14 @@ header
 {		
 	text-align: center;
 	margin: 0 auto;
-	padding-top: 145px;
+	padding-top: 150px;
 }
 
 .down_text h5
 {
 	color: #ffffff;
-	margin-bottom: 12px;
-	font: 700 36px/30px "Open Sans";
+	margin-bottom: 8px;
+	font: 400 36px/30px "Open Sans";
 }
 
 .down_text a
@@ -278,7 +286,7 @@ header
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
-	margin: 25px auto 0;
+	margin: 24px auto 0;
 	width: 195px;
 	padding-bottom: 6px;
 }
@@ -302,7 +310,7 @@ header
 
 .fb_header
 {
-	padding-top: 155px;
+	padding-top: 151px;
 	text-align: center;
 	margin: 0 auto 63px;	
 }
@@ -349,12 +357,13 @@ header
 	height: 566px;
 	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
 	background-color: #ffffff;
+	margin: auto auto auto 25px;
 }
 
 .info_box
 {
 	height: 378px;
-	margin: 0 auto 0 91px;
+	margin: 0 auto 0 90px;
 }
 
 .info_item
@@ -366,8 +375,8 @@ header
 {
 	color: #e74e3e;
 	text-transform: uppercase;
-	margin-bottom: 25px;
-	font: 700 22px/20px "Source Sans Pro - Semibold";
+	margin-bottom: 20px;
+	font: 400 24px/24px "Source Sans Pro";
 }
 
 .info_item p
@@ -404,12 +413,12 @@ label
 
 .input, .msg textarea
 {
-	margin: 15px 0;
+	margin: 14px 0;
 	background: transparent;
 	border: 0;
 	border-bottom: 1px solid #ececec;
 	width: 100%;
-	padding: 0 0 19px 0;
+	padding: 0 0 16px 0;
 	
 }
 
@@ -421,7 +430,7 @@ label
 ::-webkit-input-placeholder
 {
 	color: #999999;
-	font: 400 14px/24px "Open Sans - Semibold";
+	font: 400 14px/24px "Open Sans";
 }
 
 .form_btn
@@ -434,6 +443,8 @@ label
 	text-transform: uppercase;
 	text-align: center;
 	font: 700 14px/40px "Open Sans";
+	border: none;
+	margin-top: 15px;
 }
 
 
@@ -482,7 +493,7 @@ label
 .direction_box_item
 {
 	display: flex;
-	margin-bottom: 55px;
+	margin-bottom: 53px;
 }
 
 .direction_box
