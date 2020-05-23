@@ -9,7 +9,7 @@
 .wrapper
 {
 	overflow: hidden;
-	min-height: 1170px;
+	min-width: 1170px;
 	width: 100%;
 }
 
