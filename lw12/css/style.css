@@ -1381,6 +1381,11 @@ footer
         background-color: #202020;
     }
 
+    .anchor_container
+	{
+		display: block;
+	}
+
     @media screen and (max-width: 1919px)
     {
         .direction_content
