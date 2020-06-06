@@ -9,3 +9,4 @@
 	$text = getGETParametr('text'); 
     echo preg_replace('/^([ ]+)|([ ]){2,}/m', '$2', $text);
     //echo $text = preg_replace('/\s\s+/', ' ', $text);
+
