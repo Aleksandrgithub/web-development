@@ -1,24 +1,11 @@
-<?php
-
-$name = $_POST['name'] ?? null;
-$email = $_POST['email'] ?? null;
-$subject = $_POST['subject'] ?? null;
-$messenge = $_POST['messenge'] ?? null;
-$filename = 'data/'.$email.".txt";
-
-if (file_exists($filename)) {
-    echo "Пользователь с данной почтой существует.";
-} else {
-    if((isset($name) && $name !== '') && (isset($email) && $email !== ''))
-    {
-        $file = fopen('data/'.$email.".txt", "w");
-        fwrite($file, $name.PHP_EOL);
-        fwrite($file, $email.PHP_EOL);
-        fwrite($file, $subject.PHP_EOL);
-        fwrite($file, $messenge.PHP_EOL);
-        fclose($file);
-    } else {
-        echo 'Не заполнены основные поля: Name, email';
-    }
-
-}
+<form action="script.php" method="POST">
+    <div class="input-fields">
+        <input type="text" class="input" name="name" placeholder="Name" />
+        <input type="text" class="input" name="email" placeholder="Email" />
+        <input type="text" class="input" name="subject" placeholder="Subject" />
+    </div>
+    <div class="msg">
+        <textarea name="messenge" placeholder="Messege"></textarea>
+    </div>
+    <input type="submit" class="form_btn" value="send message">
+</form>
